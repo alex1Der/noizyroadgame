@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93aea69da38ca2408c7c357e1e21b39, type: 3}
+  m_Name: Earth
+  m_EditorClassIdentifier: 
+  terrainPrefab: {fileID: 4240706853157114803, guid: 735fa20081de2ec459db66203ca43bbe,
+    type: 3}
+  maxSpawnAmount: 5
+  appearingChance: 0
+  currentSpawnSide: -1
+  spawnObjects:
+  - {fileID: 2474360610200261145, guid: 23bdbb3640f1ac04bbf177f7c6321613, type: 3}
+  - {fileID: 1371306739934015050, guid: e5ff8c548e86f3443a3b961125d35278, type: 3}

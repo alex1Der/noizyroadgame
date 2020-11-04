@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93aea69da38ca2408c7c357e1e21b39, type: 3}
+  m_Name: River
+  m_EditorClassIdentifier: 
+  terrainPrefab: {fileID: 7006471970666859517, guid: 57499debd8a1b6543b80fc094bf37db3,
+    type: 3}
+  maxSpawnAmount: 2
+  appearingChance: 0
+  currentSpawnSide: 1
+  spawnObjects:
+  - {fileID: 4868065952706998335, guid: 2766b594d9cdc4b458c12c5d6a8e4306, type: 3}
+  - {fileID: 1903022314045148095, guid: b8ab42d34789eab4a9841555877e8bc1, type: 3}

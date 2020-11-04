@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93aea69da38ca2408c7c357e1e21b39, type: 3}
+  m_Name: Road
+  m_EditorClassIdentifier: 
+  terrainPrefab: {fileID: 1272002837175357434, guid: 62f6dbe337928464b8aae12d51cf38e3,
+    type: 3}
+  maxSpawnAmount: 4
+  currentSpawnSide: -1
+  spawnObjects:
+  - {fileID: 8175212404386224211, guid: 10e17188372e39048b8f0a54c10fea36, type: 3}
